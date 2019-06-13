@@ -346,7 +346,7 @@ if(DEFINED ENV{ARROW_THRIFT_URL})
 else()
   set(
     THRIFT_SOURCE_URL
-    "https://archive.apache.org/dist/thrift/${THRIFT_VERSION}/thrift-${THRIFT_VERSION}.tar.gz"
+    "https://github.com/apache/thrift/archive/${THRIFT_VERSION}.tar.gz "
     )
 endif()
 
